@@ -1,11 +1,13 @@
 extends Node
 
+enum Tetromino { I, O, T, J, L, S, Z }
 
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+var cells: Dictionary[Tetromino, Array] = {
+	Tetromino.I: [Vector2(-1, 0), Vector2(0, 0), Vector2(1, 0), Vector2(2, 0)],
+	Tetromino.O: [Vector2(0, 0), Vector2(1, 0), Vector2(0, 1), Vector2(1, 1)],
+	Tetromino.T: [Vector2(0, 1), Vector2(-1, 0), Vector2(0, 0), Vector2(1, 0)],
+	Tetromino.J: [Vector2(-1, 1), Vector2(-1, 0), Vector2(0, 0), Vector2(1, 0)],
+	Tetromino.L: [Vector2(1, 1), Vector2(-1, 0), Vector2(0, 0), Vector2(1, 0)],
+	Tetromino.S: [Vector2(0, 1), Vector2(1, 1), Vector2(-1, 0), Vector2(0, 0)],
+	Tetromino.Z: [Vector2(-1, 1), Vector2(0, 1), Vector2(0, 0), Vector2(1, 0)],
+}
