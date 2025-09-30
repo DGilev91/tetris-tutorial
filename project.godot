@@ -11,5 +11,6 @@ config_version=5
 [application]
 
 config/name="TetrisTutorial"
+run/main_scene="uid://c32rx4fwo5c3o"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
