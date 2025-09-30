@@ -14,3 +14,12 @@ config/name="TetrisTutorial"
 run/main_scene="uid://c32rx4fwo5c3o"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=324
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+environment/defaults/default_clear_color=Color(0.1249348, 0.32240537, 0.4440074, 1)
