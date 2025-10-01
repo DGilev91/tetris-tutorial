@@ -33,7 +33,7 @@ var wall_kicks_jlostz: Array = [
 	[Vector2(0,0), Vector2(1, 0), Vector2(1, 1), Vector2(0,-2), Vector2(1, -2)]
 ]
 
-var data = {
+var data: Dictionary[TetrominoType, Resource] = {
 	TetrominoType.I: preload("res://Resources/i_piece_data.tres"),
 	TetrominoType.J: preload("res://Resources/j_piece_data.tres"),
 	TetrominoType.L: preload("res://Resources/l_piece_data.tres"),
