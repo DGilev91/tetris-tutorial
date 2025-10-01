@@ -1,10 +1,10 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://b2h2lddp7yvib"]
 
-[ext_resource type="Script" uid="uid://caonliw2kklsu" path="res://scripts/piece_data.gd" id="1_ci2x7"]
-[ext_resource type="Texture2D" uid="uid://cm82h5bwlvnqe" path="res://assets/Orange.png" id="2_gg0en"]
+[ext_resource type="Script" uid="uid://caonliw2kklsu" path="res://scripts/piece_data.gd" id="1_4pa7h"]
+[ext_resource type="Texture2D" uid="uid://cm82h5bwlvnqe" path="res://assets/Orange.png" id="2_i63xq"]
 
 [resource]
-script = ExtResource("1_ci2x7")
-tetromino_texture = ExtResource("2_gg0en")
-tetrimino_type = 1
+script = ExtResource("1_4pa7h")
+tetromino_texture = ExtResource("2_i63xq")
+tetrimino_type = 4
 spawn_position = Vector2(-24, -456)
